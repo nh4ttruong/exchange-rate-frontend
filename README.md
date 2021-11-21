@@ -1,2 +1,2 @@
-# the-first-bootstrap-website
-A basic frontend using bootstrap 5.0 and chart.js
+# Web Application Development - NT208.M11.ANTT
+This repo store all of my study about web application development.
