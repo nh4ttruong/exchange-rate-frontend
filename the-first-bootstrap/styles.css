@@ -1,0 +1,149 @@
+body {
+  background-color: #f0f3f7;
+  width: 100%;
+}
+
+.navbar {
+  background: #054c84 !important;
+  color: white !important;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.badge-icon {
+  display: flex;
+  font-size: 2em;
+}
+
+.badge-icon:after {
+  content: attr(data-count);
+  position: absolute;
+  height: 1rem;
+  width: 1rem;
+  font-size: 13px;
+  margin: 0px 21px;
+  text-align: center;
+}
+
+.fa-bell.badge-icon:after {
+  background: #f1b83d;
+}
+
+.fa-envelope.badge-icon:after {
+  background: #1db363;
+}
+
+.navbar-dark .navbar-nav .special-color {
+  border-color: #eacd62 !important;
+  color: #eacd62 !important;
+}
+
+.money-type {
+  width: 100%;
+}
+
+.ads-img img {
+  object-fit: cover !important;
+}
+
+#session2 {
+  background-color: #8cd4fc !important;
+}
+
+.info {
+  color: #cf648a;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.avatar {
+  float: right;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.product.row .product-img .ads-ss3 {
+  object-fit: cover;
+  padding: 40px 20px;
+}
+
+.ads-ss3 {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.product-img {
+  height: 15vh;
+}
+
+.fa {
+  font-size: 9px;
+}
+
+.star-checked {
+  color: #ffe400;
+}
+
+.star-unchecked {
+  color: #838383;
+}
+
+canvas#lineChart {
+    height: 430px;
+    max-height: 430px;
+    min-height: 430px;
+}
+
+@media only screen and (max-width: 486px) {
+    canvas#lineChart {
+        height: 25vh;
+        max-height: 25vh;
+        min-height: 25vh;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+  .money-type {
+    width: 25vw!important;
+    position: relative;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .fa {
+    font-size: 12px;
+  }
+
+  .info {
+    color: #cf648a;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .money-type {
+    width: 20vw!important;
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .money-type {
+    position: relative;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .product-img {
+    height: 250px;
+  }
+}
